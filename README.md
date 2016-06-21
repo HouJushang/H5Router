@@ -40,7 +40,7 @@ html5 路由功能
         ctrl: function(id){
             console.log(id);
         }
-    }).default('home');
+    }).default('home').complete();
 </script>
 </html>
 ```
